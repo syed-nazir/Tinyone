@@ -1,0 +1,240 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /* Header Start*/
+    .navbar{
+        padding: 15px 0;
+    }
+
+    .offcanvas-header{
+        padding: 1.9rem 1rem;
+    }
+    /* Header End*/
+
+
+    /* Slider Start */
+    .slider{
+        padding-top: 53px;
+        padding-bottom: 78px;
+    }
+
+    .slide-header {
+        font-size: 28px;
+    }
+
+    .slide-text-top {
+        font-size: 18px;
+    }
+
+    .slide-content-left {
+        margin-top: 0;
+    }
+
+    .slide-icon-i {
+        font-size: 33px;
+    }
+    /* Slider End */
+
+
+    /* Features Start */
+    .common-padding {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .header-h1 {
+        font-size: 28px;
+    }
+
+    .text-p {
+        font-size: 17px;
+    }
+
+    .feature{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .feature-icon-i {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .fa.fa-mobile {
+        font-size: 60px;
+    }
+    /* Features End */
+
+    /* Footer Start */
+    .submit-btn {
+        margin-top: 20px;
+    }
+
+    .common-form-height {
+        height: 40px;
+    }
+
+    .social-link {
+        margin-top: 50px;
+    }
+
+    .social-link ul li a{
+        margin: 0 10px;
+    }
+
+    .social-link-i {
+        font-size: 33px;
+    }
+
+    .footer-content{
+        text-align: center;
+    }
+
+    .footer-bottom {
+        margin-top: 80px;
+    }
+    /* Footer End */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Header Start*/
+    .navbar{
+        padding: 15px 0;
+    }
+
+    .offcanvas-header{
+        padding: 1.9rem 1rem;
+    }
+    /* Header End*/
+
+
+    /* Slider Start */
+    .slider{
+        padding-top: 60px;
+    }
+
+    .slide-content-left {
+        margin-top: 0;
+    }
+    /* Slider End */
+
+    /* Features Start */
+    .common-padding {
+        padding-top: 65px;
+        padding-bottom: 85px;
+    }
+
+    .feature{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .feature-icon-i {
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+        margin-top: 85px;
+    }
+
+    .fa.fa-mobile {
+        font-size: 50px;
+    }
+    /* Features End */
+
+    /* Footer Start */
+    .social-link {
+        margin-top: 55px;
+    }
+    /* Footer End */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Slider Start */
+    .slide-content-left {
+        margin-top: 2.5rem;
+    }
+    /* Slider End */ 
+}
+
+/* Offcanvas Menu Media for max-width 991.98px */
+@media (max-width: 991.98px) { 
+    .offcanvas{
+        background-color: #fcdb00;
+    }
+
+    .offcanvas-menu ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .offcanvas-menu ul li{
+        list-style: none;
+    }
+
+    .item {
+        margin: 15px 30px;
+        display: inline-block;
+        text-decoration: none;
+        color: #010101;
+        padding: 5px 0;
+        border-bottom: 3px solid transparent;
+        transition: .5s;
+    }
+      
+    .item:hover {
+         color: #010101;
+         border-bottom: 3px solid #ffffff;
+    }
+    
+    .offcanvas-start{
+        width: 275px;
+    }
+    
+    .share-item{
+        margin-left: 31px;
+    }
+
+    .btn-icon{
+        font-size: 30px;
+        color: #010101;
+    }
+
+    .btn-close:focus{
+        box-shadow: none;
+    }
+
+    .menu-btn{
+        padding: 3px 7px;
+        background: transparent;
+        border: none;
+    }
+
+    .menu-btn:focus{
+        padding: 3px 7px;
+        -webkit-box-shadow: 0px 0px 3px 4px rgba(255,255,255,0.9);
+        -moz-box-shadow: 0px 0px 3px 4px rgba(255,255,255,0.9);
+        box-shadow: 0px 0px 3px 4px rgba(255,255,255,0.9);
+    }
+    
+    .offcanvas-header .btn-close {
+        padding: .7rem .5rem;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px){ 
+
+}
+
